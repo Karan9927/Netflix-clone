@@ -1,0 +1,27 @@
+#slideleft {
+  height: 85%;
+  top: 8px;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  transition: 0.1s ease;
+  left: -35px;
+}
+#slideleft:hover {
+  transform: scale(1.2);
+  background-color: black;
+  opacity: 40%;
+}
+#slideright {
+  height: 85%;
+  top: 8px;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  transition: 0.1s ease;
+}
+#slideright:hover {
+  transform: scale(1.2);
+  background-color: black;
+  opacity: 40%;
+}
